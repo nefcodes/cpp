@@ -13,7 +13,7 @@ int main() {
   
   
     void *ptrz = nullptr; // init a poitner to 0
-    cout << ptrz // but you cant *ptrz (read the address of a nullpointer)
+    cout << ptrz // but you cant *ptrz (read the address of a nullpointer) // neither can you set value to a nullptr
     
     
 }
