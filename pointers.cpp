@@ -1,5 +1,6 @@
 //// ---------- REFERENCE VS POINTERS could create some confusion. So need to know them well.
-
+// A POINTER CAN ONLY STORE AN ADDRESS THAT's IT, EACH POINTER CAN STORE AN ADDRESS BUT HAS ITS OWN ADDRESS AS WELL
+// A Reference is just a reference of a memory location.
 
 #include<iostream>
 
