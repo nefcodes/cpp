@@ -22,6 +22,8 @@ int main()
     
     // 2. Method
     fptr_var(5, '2');
-    
+
+    // NOW A SPECIAL FUNCTION "atexit(argument)"  ------- this calls a functions at the end of our program, obiously you need to define it beforehand.
+        
     return 0;
 }
