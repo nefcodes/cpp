@@ -14,6 +14,9 @@ using namespace std;
 		and store the address of first array item to temp_ptr */
 
 		cout << temp_ptr << endl; // show the address of first array item on the heap.
+
+		// NOTE: If you do lose the address of the first value, that is memory leak. do not set temp_pt = nullptr before 
+		// freeing up the space.
 		delete[] temp_ptr;
 
 		return 0;
