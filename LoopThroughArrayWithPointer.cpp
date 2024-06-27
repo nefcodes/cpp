@@ -12,7 +12,7 @@ int main() {
     so while the value is not equal to -2 do the expression*/
 	while (*point_to_score != -2) {
 		cout << *point_to_score << endl;
-		point_to_score++;
+		point_to_score++;  // increase the address by the value of the type of array, in this case "INT" having 4 or 8 bytes depending on your computer.
 
 	}
 	return 0;
