@@ -21,3 +21,17 @@ int main() {
 
 // New not only allocates but also initialize which malloc and calloc can't.
 // new can also call constructor, malloc can't.
+
+/*
+DIFFERENCE b/w malloc and calloc
+
+Malloc is:					Calloc is:
+		
+function					operator	
+requires size					auto sizing	
+cannot initialze a value			can initialize memory
+can't call constructor				can call constructors
+return void pointer that need 			return pointer type (address)	
+to be recasted
+
+*/
