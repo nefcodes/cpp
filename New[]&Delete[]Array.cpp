@@ -13,6 +13,9 @@ using namespace std;
 void new_operator_array() {
 	int* p = new int[5]; //create an array of int typen the heap for 5 items and store
 						//	the address in p pointer
+
+	//Instead of initializing array with for loop you could also have written:
+	//	int* p = new int[5]{1, 2, 3, 4, 5};
 	
 	//set and display all 
 	for (int i =0; i < 5; ++i) {
