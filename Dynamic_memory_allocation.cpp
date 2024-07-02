@@ -1,5 +1,16 @@
 #include <iostream>
 
+
+/*	Malloc() allocates memory but doesn't initialize it. [expects only the size / sizeof(data type)]
+	Calloc() allocates and initializes to 0. [expects no of items, and their data type]
+ 	Realloc() rellocates existing memory on heap to a bigger space.
+
+  	free() expects a pointer(mem. address) to clear our memory from heap.
+   	AFTER YOU FREE THE MEMORY assign NULL to the pointer.
+
+  
+*/
+
 using namespace std;
 
 	int main() {
@@ -9,7 +20,7 @@ using namespace std;
 		cout << "How manys values?: ";
 		cin >> size;
 
-		temp_ptr = new double[size]; // allocate memory on the heap for an array
+		temp_ptr = new double[size]; // allocate memory on the heap for an array --- STORE THE ADDRESS OF FIRST VALUE as a pointer on the heap.
 		/* which will have double values
 		and store the address of first array item to temp_ptr */
 
