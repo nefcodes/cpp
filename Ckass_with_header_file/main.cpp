@@ -1,6 +1,7 @@
 /*
   Complete classes: usually when classes are created they are stored in a (.h) header file
   and then implemented in a separate .cpp implementation file
+  if the function is small you can just use an inline function
 
 */
 #include <iostream>
