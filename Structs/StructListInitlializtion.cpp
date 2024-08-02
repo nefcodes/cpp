@@ -18,6 +18,9 @@ int main() {
 	
 	//player cassie = { "Cassie", , true }; you could skip positions 
 	
+	//by default int is zero, char is 0 "non printable in ascii"
+	
+	
 	cout << "Name: " << cassie.name << endl;
 	cout << "Age: " << cassie.age << endl;
 	cout << "Activity status: " << cassie.active << endl;
