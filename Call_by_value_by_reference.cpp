@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void valuechange1(int x);
+void valuechange1(int x); // pass by value only creates a copy and doesn't change the actual argument passed in
 void valuechange2(int& x);// Corrected function declaration
 
 int main() {
