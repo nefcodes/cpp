@@ -6,17 +6,18 @@ void valuechange2(int& x);// Corrected function declaration
 
 int main() {
     int num{};
-    
+
     cout << "This is the original value: " << num << endl;
-    
+
+    // we are trying to change the variable num.
     valuechange1(num);
-     cout << "This is the value of num after call by value: " << num << endl;
-     
-     valuechange2(num);
-     cout << "This is the value of num after call by reference: " << num << endl;
-    
-    
-    return 0;   
+    cout << "This is the value of num after call by value: " << num << endl;
+
+    valuechange2(num);
+    cout << "This is the value of num after call by reference: " << num << endl;
+
+
+    return 0;
 }
 
 void valuechange1(int x) {
