@@ -17,6 +17,7 @@ int main() {
 	
 	//cout the array
 	// IN THIS INSTANCE IT MIGHT HAVE WORKED because its a STACK ARRAY, BUT NEVER TRY SIZE OUT ON A DYNAMICALLY ALLOCATED ARRAY IN HEAP
+	// becz in a heap array, if you type the sizeof(dynamic_array) it will just return the pointer size.
 	cout << "THE COMPLETE ARRAY: " << endl;
 	for (int x = 0; x < sizeof(array) / sizeof(array[0]); x++) {
 		cout << array[x] << ", ";
