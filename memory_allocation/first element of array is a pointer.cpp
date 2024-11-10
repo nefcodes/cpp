@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-	int array[] = { 1, 4, 7, 10 };
+	int array[] = { 1, 4, 7, 10 }; // stack array
 
 	int* pointer = array;  // even though we didn't specify & operator, the first element of an array is stil a pointer.
 	
@@ -16,6 +16,7 @@ int main() {
 
 	
 	//cout the array
+	// IN THIS INSTANCE IT MIGHT HAVE WORKED because its a STACK ARRAY, BUT NEVER TRY SIZE OUT ON A DYNAMICALLY ALLOCATED ARRAY IN HEAP
 	cout << "THE COMPLETE ARRAY: " << endl;
 	for (int x = 0; x < sizeof(array) / sizeof(array[0]); x++) {
 		cout << array[x] << ", ";
