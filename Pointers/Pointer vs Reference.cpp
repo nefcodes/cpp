@@ -5,7 +5,16 @@
 	R Value = only magnitude.
 
 	References can't be nullptr, can't point to a magnitude. only when "Const int& ref_name" allows magnitude
+ 	
 
+
+
+	There is also a difference between const int& ref_name= r / l values  
+ 	---- cannot modify afterwards  --- extends the lifetime
+	
+ 	vs 
+  	int&& ref_name = only r values				  	     
+        ----- can modify ----- doesn't extend the liftime 
 */
 
 #include<iostream>
