@@ -1,0 +1,31 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+
+	//We use pointers when we want other dependent variables to change automatically.
+
+	int* num1 = new int(11);
+	int* num2 = num1;
+
+
+	// Both pointers store the same address
+	cout << "Num 1: " << num1 << endl; 
+	cout << "Num 2: " << num2 << endl;
+
+	//dereferencing them
+	cout << "Num 1: " << *num1 << endl;
+	cout << "Num 2: " << *num2 << endl;
+
+	*num1 = 22;
+
+	//dereferencing them
+	cout << "Num 1: " << *num1 << endl;
+	cout << "Num 2: " << *num2 << endl;
+
+
+
+	return 0;
+
+}
